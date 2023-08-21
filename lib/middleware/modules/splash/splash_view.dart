@@ -8,8 +8,9 @@ class MiddlewareSplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      
+    return const Scaffold(
+      backgroundColor: Colors.grey,
+      //body:  Center(child: CircularProgressIndicator()),
       // body: Center(
       //   child: Image.asset(Get.find<MiddlewareSplashController>().imageString),
       // ),

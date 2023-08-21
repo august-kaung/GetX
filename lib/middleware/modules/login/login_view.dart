@@ -16,7 +16,11 @@ class MiddlewareLoginPage extends StatelessWidget {
         },
       ),
       body: Center(
-        child: Text('Login PAGE'),
+        child: ElevatedButton(
+          onPressed: (){
+            Get.find<MiddlewareLoginController>().login();
+          },
+          child:const Text('Login With Google')),
       ),
     );
   }
